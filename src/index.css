@@ -1,0 +1,224 @@
+.aa img {
+  height: 120px;
+  width: 250px;
+}
+
+.aa {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 425px) {
+  .aa img {
+    height: 100px !important;
+    width: 250px !important;
+  }
+}
+
+.cc img {
+  position: relative;
+  height: 450px;
+  width: 100%;
+}
+
+.ee {
+  position: absolute;
+  top: 430px;
+  right: 0;
+}
+
+.ee h1 {
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 425px) {
+  .ee h1 {
+    font-size: 25px !important;
+  }
+
+  .ee {
+    position: absolute;
+    top: 330px;
+    right: 0;
+  }
+
+  .cc img {
+    height: 200px;
+    width: 100%;
+  }
+
+  .ff i {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .ww {
+    height: 15px;
+    width: 200px !important;
+  }
+}
+
+.icons i {
+  color: black;
+}
+
+.abc {
+  color: #b20023;
+  font-weight: 700;
+}
+
+.bbbb:hover {
+  background-color: #b20023 !important;
+}
+
+.qq {
+  height: 220px;
+  width: 220px;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.ww {
+  height: 55px;
+  width: 300px;
+}
+
+.lll {
+  height: 40px;
+  width: 170px;
+}
+
+.rrr {
+  background-color: #b2000c;
+  position: sticky;
+  top: 100vh;
+  margin-top: 60px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#root {
+  flex: 1;
+}
+
+.jj {
+  color: #b20023;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons .oooo {
+  position: relative;
+  margin-right: 1.5rem;
+  /* Adjust the margin as needed */
+}
+
+.icons .oooo .cart-count {
+  position: absolute;
+  top: -10px;
+  right: 32px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+.icons span {
+  display: flex;
+  align-items: center;
+}
+
+.icons i {
+  font-size: 1.5rem;
+}
+
+.zz {
+  color: black !important;
+}
+
+.kkkk {
+  height: 200px;
+  width: 200px;
+}
+
+.tt {
+  height: 90px;
+  width: 100px;
+}
+
+.jjj {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+.juju {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.pppp {
+  text-align: left;
+  margin-top: 45px;
+  border: 2px solid #b2000c;
+  width: 300px;
+  padding: 15px;
+}
+
+.kiki {
+  text-align: right;
+  display: flex;
+  justify-content: end;
+}
+
+.koko {
+  width: 100%;
+  margin-top: 20px;
+  padding: 9px 0px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  
+}
+
+
+
+.item-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dsds {
+  text-align: right;
+}
+
+.ppppp{
+ 
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
