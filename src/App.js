@@ -12,6 +12,7 @@ import Footer from "./Component/Footer";
 import { Provider } from "react-redux";
 import store from "./Component/Store/Store";
 import Payment from "./Component/Payment"
+import SinglePage from "./Component/SinglPage"
 
 const App = () => {
     return (
@@ -28,6 +29,7 @@ const App = () => {
                         <Route path="cart" element={<Cart />} />
                         <Route path="search" element={<Search />} />
                         <Route path="cart/Payment" element={<Payment />} />
+                        <Route path="/demo/:id" element={<SinglePage />} />
                     </Routes>
                     <Footer />
                 </BrowserRouter>

@@ -85,8 +85,8 @@ ul li {
 }
 
 a {
-  text-decoration: none;
-  color: white;
+  text-decoration: none !important;
+  color: white !important;
 }
 
 .ww {
@@ -203,10 +203,7 @@ body {
   color: white;
   font-size: 18px;
   font-weight: 700;
-  
 }
-
-
 
 .item-total {
   display: flex;
@@ -218,7 +215,16 @@ body {
   text-align: right;
 }
 
-.ppppp{
- 
+.ppppp {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.tttt {
+  cursor: pointer;
+}
+
+.qqe {
+  height: 300px;
+  width: 450px;
+  background-size: cover;
 }
