@@ -13,6 +13,7 @@ import { Provider } from "react-redux";
 import store from "./Component/Store/Store";
 import Payment from "./Component/Payment"
 import SinglePage from "./Component/SinglPage"
+import ErrorPage from "./Component/ErrorPage";
 
 const App = () => {
     return (
@@ -27,6 +28,7 @@ const App = () => {
                         <Route path="products" element={<Products />} />
                         <Route path="contactus" element={<ContactUs />} />
                         <Route path="cart" element={<Cart />} />
+                        <Route  element={<ErrorPage />} />
                         <Route path="search" element={<Search />} />
                         <Route path="cart/Payment" element={<Payment />} />
                         <Route path="/demo/:id" element={<SinglePage />} />
