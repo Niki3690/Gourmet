@@ -69,24 +69,24 @@ import { HomeBestSellingHampers, BestSellingHamperBest, ProductShop } from './Da
 import { useSelector, useDispatch } from "react-redux";
 import { add } from "./Store/Cartslice";
 import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css'; // Import the default styles
+import 'react-multi-carousel/lib/styles.css';
 
 
 const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
         items: 3,
-        slidesToSlide: 3 // optional, default to 1.
+        slidesToSlide: 1
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },
         items: 2,
-        slidesToSlide: 2 // optional, default to 1.
+        slidesToSlide: 1
     },
     mobile: {
         breakpoint: { max: 464, min: 0 },
         items: 1,
-        slidesToSlide: 1 // optional, default to 1.
+        slidesToSlide: 1
     }
 };
 
@@ -110,13 +110,13 @@ const SinglPage = () => {
     return (
         <div className='container'>
             <div className='row justify-content-center'>
-                <div className='col-sm-11 col-md-6 col-lg-6'>
+                <div className='col-sm-11 col-md-6 col-lg-4'>
                     <Carousel
                         swipeable={true}
                         draggable={true}
                         showDots={true}
                         responsive={responsive}
-                        ssr={true} // means to render carousel on server-side.
+                        ssr={true}
                         infinite={true}
                         autoPlay={false}
                         keyBoardControl={true}
@@ -126,9 +126,9 @@ const SinglPage = () => {
                         removeArrowOnDeviceType={["tablet", "mobile"]}
                         dotListClass="custom-dot-list-style"
                         itemClass="carousel-item-padding-40-px"
+
                     >
                         <img src={demo.image} alt={demo.title} className="carousel-image" />
-                        {/* You can add more carousel items here if needed */}
                     </Carousel>
                 </div>
                 <div className='col-sm-12 col-md-6 col-lg-6'>
@@ -138,7 +138,7 @@ const SinglPage = () => {
                         <h2 className="abc mt-3">₹{demo.price}.00</h2>
                         <h6 className='mt-3 fw-normal lh-lg'>{demo.description}</h6>
                     </div>
-                    <div className='text-center'>
+                    <div className=''>
                         <button
                             type="button"
                             className="btn btn-outline-danger bg-danger text-white mt-2 px-5 fw-semibold rounded-0 py-2 bbbb"
