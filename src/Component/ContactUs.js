@@ -68,6 +68,7 @@ const ContactUs = () => {
       </div>
 
       <h3 className="text-center mt-5 fw-bold">CONTACT US</h3>
+      <div className="aass"></div>
 
       <div className="container">
         <div className="row justify-content-center mt-5">

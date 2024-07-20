@@ -101,7 +101,7 @@ const SinglPage = () => {
 
 
 
-            <h3 className='my-4'>Related products</h3>
+            <h3 className='my-4 underline underline-red underline-3'>Related products</h3>
             <Carousel responsive={responsive}>
 
                 {allProducts.map((demo) => {

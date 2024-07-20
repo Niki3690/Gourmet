@@ -70,8 +70,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div>
+      <div className="">
         <h2 className="text-center mt-5 fw-bold ">BEST SELLING HAMPERS</h2>
+        <div className="aass"></div>
       </div>
 
       <div className="container mt-5">

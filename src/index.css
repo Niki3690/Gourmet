@@ -228,3 +228,36 @@ body {
   width: 450px;
   background-size: cover;
 }
+
+/* .aass {
+  width: 250px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  height: 5px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+} */
+
+.aass::after {
+  content: "";
+  width: 150px;
+  height: 3px;
+  background-color: #b2000c;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+
+.aasss::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background-color: #b2000c;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+}

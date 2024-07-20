@@ -4,11 +4,10 @@ import { decrement, increment, remove } from "./Store/Cartslice";
 import { Link } from "react-router-dom";
 
 const Cart = () => {
+  useEffect(() => {
+    document.title = "Cart-Gourment";
+  }, []);
 
-  useEffect(()=>{
-    document.title="Cart-Gourment"
-  },[])
-  
   let names = useSelector((state) => state.cart);
   let dispatch = useDispatch();
 
@@ -110,22 +109,22 @@ const Cart = () => {
           </div>
         </div>
 
-        {names.length >0 &&(
-        <div className="kiki">
-          <div className="pppp">
-            <h4 style={{ fontWeight: 700 }}>Cart Total</h4>
-            <hr />
-            <h5 className="item-total">
-              Total Items: <span className="dsds">{names.length}</span>
-            </h5>
-            <h5 className="item-total mt-4">
-              Subtotal: <span className="dsds">₹ {MainTotal}</span>
-            </h5>
-            <Link to="payment">
-              <button className=" bbbb koko bg-danger">Checkout Page</button>
-            </Link>
+        {names.length > 0 && (
+          <div className="kiki">
+            <div className="pppp">
+              <h4 style={{ fontWeight: 700 }}>Cart Total</h4>
+              <hr />
+              <h5 className="item-total">
+                Total Items: <span className="dsds">{names.length}</span>
+              </h5>
+              <h5 className="item-total mt-4">
+                Subtotal: <span className="dsds">₹ {MainTotal}</span>
+              </h5>
+              <Link to="payment">
+                <button className=" bbbb koko bg-danger">Checkout Page</button>
+              </Link>
+            </div>
           </div>
-        </div>
         )}
       </div>
     </div>

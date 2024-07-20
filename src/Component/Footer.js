@@ -7,10 +7,10 @@ const Footer = () => {
       <div className="container-fluid mx-2">
         <div className="row ">
           <div className="col-sm-12 col-md-6 col-lg-3">
-            <h4>GOURMET LIVING</h4>
+            <h5>GOURMET LIVING</h5>
 
             <p className="mt-3">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi eveniet nobis fugiat delectus quam sit, sint voluptatem optio quibusdam molestias, commodi omnis soluta id. Consectetur eius, animi dolore quidem rem quasi exercitationem.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi eveniet nobis fugiat delectus quam sit, sint voluptatem optio quibusdam molestias, commodi omnis soluta id. Consectetur eius, animi dolore quidem rem quasi exercitationem.
             </p>
 
             <img
@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
 
           <div className="col-sm-12 col-md-6 col-lg-3">
-            <h4>QUICK LINKS</h4>
+            <h5>QUICK LINKS</h5>
 
             <ul className="mt-3">
               <li className="mt-3">
@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
 
           <div className="col-sm-12 col-md-6 col-lg-3">
-            <h4>GET IN TOUCH</h4>
+            <h5>GET IN TOUCH</h5>
 
             <p className="mt-3 fs-5">
               <i class="fa-solid fa-phone me-3 "></i> 042 702 5808
