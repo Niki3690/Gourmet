@@ -30,7 +30,7 @@ const Home = () => {
         <div className="row justify-content-center align-demoss-center g-3">
           <div className="col-sm-12 col-md-12 col-lg-4  ">
             <div className="d-flex justify-content-center align-demoss-center ff">
-              <i className="fs-1 me-5 fa-solid fa-truck"></i>
+              <i className="fs-1 me-4 mt-2 fa-solid fa-truck"></i>
               <p className="fs-5 fw-semibold">
                 FREE DELIVERY
                 <br />
@@ -41,7 +41,7 @@ const Home = () => {
 
           <div className="col-sm-12 col-md-12 col-lg-4  ">
             <div className="d-flex justify-content-center align-demoss-center ff">
-              <i className="fs-1 me-5 fa-solid fa-award"></i>
+              <i className="fs-1 me-4 mt-2 fa-solid fa-award"></i>
               <p className="fs-5 fw-semibold">
                 BEST SELLING
                 <br />
@@ -52,7 +52,7 @@ const Home = () => {
 
           <div className="col-sm-12 col-md-12 col-lg-4 justify-content-center">
             <div className="d-flex justify-content-center align-demoss-center ff">
-              <i className="fs-1 me-5 fa-solid fa-lock"></i>
+              <i className="fs-1 me-4 mt-2 fa-solid fa-lock"></i>
               <p className="fs-5 fw-semibold">
                 SECURED
                 <br />
@@ -74,9 +74,9 @@ const Home = () => {
               <div className="card pb-2">
                 <div className="text-center">
                   <Link to={`/demo/${demo.id}`}>
-                  <img src={demo.image} alt={demo.title} className="qq" />
-                  <h5 style={{color:'black'}} className="mt-3">{demo.title}</h5>
-                  <h5 className="abc">₹{demo.price}.00</h5>
+                    <img src={demo.image} alt={demo.title} className="qq" />
+                    <h5 style={{ color: 'black' }} className="mt-3">{demo.title}</h5>
+                    <h5 className="abc">₹{demo.price}.00</h5>
                   </Link>
                   <button
                     type="button"

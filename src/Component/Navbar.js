@@ -43,7 +43,7 @@ const Navbar = () => {
                   </li>
                 </ul>
                 <form className="d-flex" role="search">
-                  <p className="fw-semibold fs-6">
+                  <p className="fw-semibold fs-6 mt-3">
                     SUPPORTING LOCAL AUSTRALIAN PRODUCERS
                   </p>
                 </form>

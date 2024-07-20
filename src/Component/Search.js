@@ -53,6 +53,10 @@ const Search = () => {
 
             </div>
           </div>
+
+          <div className='d-flex gap-5 border border-2 border-danger p-5 rounded-5'>
+            <p className='text-success-hover'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium et ipsa quos sequi quia, quam ducimus beatae quas nam ex? Quo laudantium, dolore soluta voluptate nostrum officia debitis. Dolores omnis, quibusdam aspernatur consequatur ratione commodi optio, facere dicta assumenda a dolore ducimus, corrupti dolor illum!</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium et ipsa quos sequi quia, quam ducimus beatae quas nam ex? Quo laudantium, dolore soluta voluptate nostrum officia debitis. Dolores omnis, quibusdam aspernatur consequatur ratione commodi optio, facere dicta assumenda a dolore ducimus, corrupti dolor illum!</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium et ipsa quos sequi quia, quam ducimus beatae quas nam ex? Quo laudantium, dolore soluta voluptate nostrum officia debitis. Dolores omnis, quibusdam aspernatur consequatur ratione commodi optio, facere dicta assumenda a dolore ducimus, corrupti dolor illum!</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium et ipsa quos sequi quia, quam ducimus beatae quas nam ex? Quo laudantium, dolore soluta voluptate nostrum officia debitis. Dolores omnis, quibusdam aspernatur consequatur ratione commodi optio, facere dicta assumenda a dolore ducimus, corrupti dolor illum!</p>
+          </div>
         </div></div>
     </>
   );
