@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const ContactUs = () => {
   let [fname, setFname] = useState("");
@@ -8,9 +8,14 @@ const ContactUs = () => {
   let [comment, setComment] = useState("");
   let [error, setError] = useState(false);
 
-  let SUBMITTED = (e) => {
-    e.preventDefault();
 
+  useEffect(() => {
+    document.title = "contactus-Gourment"
+  }, [])
+
+  let SUBMITTED = (e) => {
+
+    e.preventDefault();
     if (
       fname.length === 0 ||
       lname.length === 0 ||

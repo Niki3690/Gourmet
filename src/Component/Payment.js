@@ -1,7 +1,11 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Payment = () => {
+    useEffect(()=>{
+        document.title="payment-Gourment"
+      },[])
+      
 
     let [fname, setFname] = useState("")
     let [lname, setLname] = useState("")

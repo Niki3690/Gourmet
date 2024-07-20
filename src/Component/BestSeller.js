@@ -3,8 +3,14 @@ import { BestSellingHamperBest } from "./DataDetails";
 import { useSelector, useDispatch } from "react-redux";
 import { add } from "./Store/Cartslice";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 const BestSeller = () => {
+
+  useEffect(() => {
+    document.title = "bestseller-Gourment"
+  }, [])
+
 
   let names = useSelector((state) => state.cart)
   let dispatch = useDispatch()

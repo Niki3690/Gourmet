@@ -1,8 +1,15 @@
 import React, { useState } from 'react';
 import { BestSellingHamperBest, HomeBestSellingHampers, ProductShop } from './DataDetails';
-
+import { useEffect } from "react";
 
 const Search = () => {
+
+  useEffect(()=>{
+    document.title="search-Gourment"
+  },[])
+  
+
+
   const allItems = [...BestSellingHamperBest, ...HomeBestSellingHampers, ...ProductShop];
 
   const [searchh, setSearchh] = useState('');

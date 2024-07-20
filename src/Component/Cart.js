@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { decrement, increment, remove } from "./Store/Cartslice";
 import { Link } from "react-router-dom";
 
 const Cart = () => {
+
+  useEffect(()=>{
+    document.title="Cart-Gourment"
+  },[])
+  
   let names = useSelector((state) => state.cart);
   let dispatch = useDispatch();
 

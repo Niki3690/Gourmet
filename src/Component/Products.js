@@ -3,8 +3,13 @@ import { ProductShop } from "./DataDetails";
 import { useSelector, useDispatch } from "react-redux";
 import { add } from "./Store/Cartslice";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 const Products = () => {
+  useEffect(()=>{
+    document.title="product-Gourment"
+  },[])
+  
   let names = useSelector((state) => state.cart)
   let dispatch = useDispatch()
 
@@ -25,8 +30,8 @@ const Products = () => {
               <div className="card pb-2">
                 <div className="text-center">
                   <Link to={`/demo/${demo.id}`}>
-                    <img src={demo.image} alt={demo.title} className="qq" />
-                    <h5 className="text-dark">{demo.title}</h5>
+                    <img src={demo.image} alt={demo.title} className="qq " />
+                    <h5 className="text-dark mt-4">{demo.title}</h5>
                     <h5 className="abc">₹{demo.price}.00</h5>
                   </Link>
                   <button
